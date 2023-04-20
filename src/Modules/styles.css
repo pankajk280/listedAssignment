@@ -1,0 +1,208 @@
+/* Default styles */
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #ede7e7;
+}
+
+.sidebar {
+  width: 15%;
+  background-color: black;
+  margin: 30px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.options {
+  margin-top: 50px;
+}
+
+.option {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  filter: brightness(80%);
+}
+
+.option:hover {
+  cursor: pointer;
+  filter: brightness(100%);
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dashboard {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+
+.content {
+  display: flex;
+}
+
+.card {
+  width: 221.05px;
+  height: 100px;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+
+.fa{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.logo{
+  margin-left:20px;
+  color: white;
+  
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 50px;
+}
+.card-content{
+  display: flex;
+}
+.card-text{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.card-icon{
+  margin-left: 50px;
+  margin-top: 15px;
+  height: 24px;
+}
+.card-num{
+  font-size: 22px;
+  margin-top: 0px;
+  font-weight: 700;
+}
+.card-text-text{
+  font-size: 12px;
+}
+.lineChartCs{
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #ffffff;
+  width: 980px;
+  border-radius: 20px;
+  height: 250px;
+  line-height: 30%;
+}
+.pieChart-Container{
+  display: flex;
+  margin-top: 10px;
+}
+.pieChart{
+  width: 480px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+.CurrentNews{
+  width: 480px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.news{
+  display: flex;
+}
+.newsColor{
+  height: 60px;
+  width: 5px;
+  margin-left: 30px;
+}
+.help{
+  height: 100px;
+  width: 100px;
+}
+.piechart-category{
+  display: flex;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .options {
+    margin-top: 20px;
+  }
+
+  .option {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .main {
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .header-right {
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .search input {
+    width: 70%;
+  }
+
+  .notifications {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .option {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .search input {
+    width: 60%;
+  }
+  
+  .card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

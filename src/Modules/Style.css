@@ -1,0 +1,89 @@
+
+.mainContainer{
+    display: flex;
+    height: 100vh;
+}
+.blackbar{
+    width:40%;
+    background-color: black;
+    color: white;
+}
+.signinPanel{
+    background-color: #F5F5F5;
+    width: 100%;
+
+}
+.signinHeader{
+    margin-left:250px;
+    margin-top:100px;
+}
+.btng{
+    background-color: white;
+    margin-right:10px;
+    color: #858585;
+    font-size: 12px;
+    
+}
+.signinContent{
+    margin-top: 25px;
+    margin-left: 250px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 245px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+#input1{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 325px;
+}
+#input2{
+    background-color: #EAEAEA;
+    border-radius:10px ;
+    font-size: 16px;
+    font-weight: 400;
+    width: 325px;
+    margin-bottom: 25px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+label{
+    font-size: 16px;
+    font-weight: 400;
+}
+.signinbtn{
+    width: 325px;
+    margin-top: 25px;
+}
+.acc{
+    margin-left:320px;
+    color: #858585;
+}
+.acc a{
+    text-decoration: none;
+}
+img{
+    margin-top:2px
+}
+.boardSign{
+    margin-left:120px;
+    margin-top: 300px;
+    font-size: 72px;
+    font-weight: 700;
+}
+.fgp{
+    color:#346BD4;
+}
